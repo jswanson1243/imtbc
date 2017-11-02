@@ -1,3 +1,4 @@
+
 .user-name {
 
 padding: 0 !important ;
@@ -56,7 +57,7 @@ padding: 8px;
 
 .navbar-link:focus, .navbar-link:hover {
 
-background: #3071a9;
+background: #000;
 
 color: #fff;
 
@@ -98,4 +99,24 @@ background-color: darken(#428bca,20%) !important;
 
 color: #fff;
 
+}
+#logo {
+  float: left;
+  font-size: 1.7em;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+.center {
+  text-align: center;
+  
+}
+.jumbotron {
+  background-image: asset-url('IMG_7743.JPG');
+  background-size: cover;
+  height: 550px;
+  
+}
+.jumbotrom h1 {
+  text-align: center;
+  font-weight: bold;
 }
